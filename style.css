@@ -22,6 +22,22 @@ body {
     max-width: 900px;
     width: 100%;
 }
+/* Musik Player */
+.music-player {
+    margin-top: 40px;
+}
+
+.music-player audio {
+    width: 300px;
+    max-width: 90%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
 
 h1 {
     font-size: 2.5em;
@@ -167,3 +183,4 @@ h1 {
         height: 15px;
     }
 }
+
